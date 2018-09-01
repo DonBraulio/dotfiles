@@ -7,6 +7,10 @@ set number
 set relativenumber
 set modelines=0
 
+set nobackup
+set nowritebackup
+set noswapfile
+
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -118,3 +122,8 @@ nnoremap <C-f>g :Ag<CR>
 nnoremap <C-f>c :Commands<CR>
 nnoremap <C-f>l :BLines<CR>
 nnoremap <C-p> :Files<CR>
+
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+
+map <C-n> :NERDTreeToggle<CR>

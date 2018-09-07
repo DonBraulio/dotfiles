@@ -84,10 +84,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export WORKON_HOME=~/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
-export LEVELUP_DEVEL=True
-tmux
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export EDITOR='vim'
-source ~/.bin/tmuxinator.zsh

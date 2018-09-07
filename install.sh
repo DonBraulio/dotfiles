@@ -2,6 +2,8 @@
 
 ln -s $(pwd)/.tmux.conf ~/
 ln -s $(pwd)/.bashrc ~/
+# damn OSX
+ln -s $(pwd)/.bashrc ~/.bash_profile
 ln -s $(pwd)/.vimrc ~/
 ln -s $(pwd)/.zshrc ~/
 ln -s $(pwd)/.fzf.bash ~/

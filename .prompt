@@ -9,4 +9,4 @@ function parse_git_branch() {
     fi
 }
 
-export PS1="\e[38;5;254m\`parse_git_branch\`\e[38;5;245m\w\e[1m\e[38;5;208m\\$ \e[m"
+export PS1="\[\e[38;5;254m\]\`parse_git_branch\`\[\e[38;5;245m\]\w\[\e[1m\]\[\e[38;5;208m\]\\$ \[\e[m\]"

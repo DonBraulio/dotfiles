@@ -89,3 +89,5 @@ export LEVELUP_DEVEL=True
 tmux
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export EDITOR='vim'
+source ~/.bin/tmuxinator.zsh

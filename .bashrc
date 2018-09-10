@@ -5,3 +5,6 @@ source ~/.profile
 source ~/.prompt
 
 source ~/.fzf.bash
+
+# linked from Configs
+source ~/.git-completion.sh

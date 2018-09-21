@@ -14,6 +14,7 @@ Plug '/usr/local/opt/fzf'  " homebrew fzf
 Plug 'junegunn/fzf.vim'
 Plug 'w0rp/ale'
 Plug 'scrooloose/nerdtree'
+Plug 'maralla/completor.vim'
 call plug#end()
 
 syntax on
@@ -47,6 +48,7 @@ set ttyfast
 set ruler
 set backspace=indent,eol,start
 set laststatus=2
+set splitbelow
 
 
 nnoremap / /\v

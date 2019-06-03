@@ -1,6 +1,8 @@
 filetype off
 filetype plugin indent on
 
+" Prerequisite: install curl
+"
 " (Optional) Automatically install vim-plug:
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
@@ -10,7 +12,7 @@ endif
 
 " vim-plug plugins
 call plug#begin('~/.vim/plugged')
-Plug '/usr/local/opt/fzf'  " homebrew fzf
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'w0rp/ale'
 Plug 'scrooloose/nerdtree'
